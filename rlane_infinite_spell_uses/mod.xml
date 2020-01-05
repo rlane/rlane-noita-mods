@@ -1,0 +1,6 @@
+<Mod
+	name="Infinite spell uses"
+	description="Spells that would have a maximum number of uses now have a long recharge time"
+	request_no_api_restrictions="0" 
+> 
+</Mod>
