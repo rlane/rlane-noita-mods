@@ -5,7 +5,7 @@ end
 
 for i, action in ipairs(actions) do
     local max_uses = action.max_uses
-    if max_uses ~= nil then
+    if max_uses ~= nil and max_uses > 0 then
         local old_action_fn = action.action
         action.max_uses = nil
         action.action = function()
